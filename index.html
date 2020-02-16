@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Javascript Documantation</title>
+        <title>Javascript Documentation</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
 
+        <!-- navbar should be on the left when on big screens and on top for smaller devices-->
+
         <nav id="navbar">
             <h1>Javascript Documentation</h1>
             <div id="chaptersArea">
                 <ul class="list-group">
-                    <li class="list-group-item"><a>Introdcution</a></li>
-                    <li class="list-group-item"><a>What you should already know</a></li>
-                    <li class="list-group-item"><a>JavaScript and Java</a></li>
-                    <li class="list-group-item"><a>Hello World</a></li>
-                    <li class="list-group-item"><a>Variables</a></li>
-                    <li class="list-group-item"><a>Declaring variables</a></li>
-                    <li class="list-group-item"><a>Variable Scope</a></li>
-                    <li class="list-group-item"><a>Global Variables</a></li>
-                    <li class="list-group-item"><a>Constants</a></li>
-                    <li class="list-group-item"><a>Data types</a></li>
-                    <li class="list-group-item"><a>If...else statement</a></li>
-                    <li class="list-group-item"><a>while statement</a></li>
-                    <li class="list-group-item"><a>Function declarations</a></li>
-                    <li class="list-group-item"><a>Reference</a></li>
+                    <li class="list-group-item nav-link"><a href="#introduction">Introduction</a></li>
+                    <li class="list-group-item nav-link"><a>What you should already know</a></li>
+                    <li class="list-group-item nav-link"><a>JavaScript and Java</a></li>
+                    <li class="list-group-item nav-link"><a>Hello World</a></li>
+                    <li class="list-group-item nav-link"><a>Variables</a></li>
+                    <li class="list-group-item nav-link"><a>Declaring variables</a></li>
+                    <li class="list-group-item nav-link"><a>Variable Scope</a></li>
+                    <li class="list-group-item nav-link"><a>Global Variables</a></li>
+                    <li class="list-group-item nav-link"><a>Constants</a></li>
+                    <li class="list-group-item nav-link"><a>Data types</a></li>
+                    <li class="list-group-item nav-link"><a>If...else statement</a></li>
+                    <li class="list-group-item nav-link"><a>while statement</a></li>
+                    <li class="list-group-item nav-link"><a>Function declarations</a></li>
+                    <li class="list-group-item nav-link"><a>Reference</a></li>
                 
                 </ul>
             </div>
@@ -33,10 +35,41 @@
         <div class="container">
             
             <div id="main-doc">
-                <section class="main-section">
-                    <h2></h2>
+                <section class="main-section" id="introduction">
+                    <h2>Introduction</h2>
+                    <p>
+                        JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them. 
+                    </p>
+                    <p>
+                        JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example: 
+                    </p>
+                    <ul>
+                        <li>
+                            Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation. 
+                        </li>
+                        <li>
+                            Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server. 
+                        </li>
+                    </ul>
                 </section>
+                <section class="main-section" id="what_you_should_already_know">
+                    <h2>What you should already know</h2>
+                    <p>
+                        This guide assumes you have the following basic background:
+                    </p>
+                    <ul>
+                        <li>
+                            A general understanding of the Internet and the World Wide Web (WWW). 
+                        </li>
+                        <li>
+                            Good working knowledge of HyperText Markup Language (HTML).
+                        </li>
+                        <li>
+                            Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript. 
+                        </li>
+                    </ul>
 
+                </section>
             </div>
         </div>
 
