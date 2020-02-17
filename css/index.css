@@ -1,0 +1,17 @@
+
+#navbar{
+    width: 30%;
+    float: left;
+}
+
+#main-container{
+    float: right;
+}
+
+@media only screen and (max-width: 815px){
+    #navbar{
+        height: 30%;
+        width: 100%;
+        float: none;
+    }
+}
